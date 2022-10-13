@@ -9,6 +9,7 @@ data(package= .packages(all.available = TRUE))
 install.packages("nlme")
 library(nlme)
 
+
 # veri setinin icerigi "Deniz silahlarını ateşleme yöntemleri"
 
 View(Gun)
@@ -34,13 +35,15 @@ head(Gun)
 
 head(Gun,2)
 
+
+View(Gun)
 #####################################################################
 
 #                              OZET
 
 # veri setinin icerigi "Deniz silahlarını ateşleme yöntemleri"
 # veri seti 36 satir ve 4sutundan olusmaktadir
-# rounds stunu altında silahların ateşleme süreleri ms cinsinden verilmistir.
+# rounds stunu altında silahların atesleme süreleri ms cinsinden verilmistir.
 # Method sutunu altıbnda silahlarin atis tarzi yöntemi belirtilmistir.
 # Team sutunı altında silahlarin gücü hangi askeri sinif tarafından kullanildigi belirtilmistir.
 # Physigue sutununda silahların güc durumları terimsel olarak verilmistir.
